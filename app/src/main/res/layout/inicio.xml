@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:background="@mipmap/tierr"
+        android:layout_weight="1.16"></LinearLayout>
+
+    <TextView
+        android:text="TE SIENTES PERDIDO, Y DESUBICADO..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:text="TENEMOS LA SOLUCION."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="#ffff"/>
+    <TextView
+        android:text="CONOCE TU UBICACION GLOBAL Y TU DIRECCIÓN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:textColor="#ffff"/>
+    <TextView
+        android:text="CON EL GPS AUTOMATICO YA NO TENDRAS MAS PROBLEMAS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:weightSum="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+
+        >
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#00bfa5"
+            android:text="COMENZAR"
+            android:textColor="#000000"
+            android:elevation="6dp"
+            android:textStyle="normal|bold"
+            android:fontFamily="sans-serif"
+            android:typeface="sans"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>
